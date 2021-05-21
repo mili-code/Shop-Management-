@@ -68,18 +68,33 @@
                       <Group type="102" attributes="0">
                           <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="rprice" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="bprice" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sapricee" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="rprice" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="140" pref="140" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="saquantity" pref="55" max="32767" attributes="0"/>
+                                          <Component id="bquantity" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="rquantity" alignment="0" min="-2" pref="55" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="143" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="oprice" min="-2" max="-2" attributes="0"/>
-                                      <Component id="sprice" min="-2" max="-2" attributes="0"/>
-                                      <Component id="bprice" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="sapricee" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="sprice" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="oprice" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="245" pref="338" max="32767" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="oquantity" pref="55" max="32767" attributes="0"/>
+                                      <Component id="squantity" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -97,14 +112,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel43" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="rquantity" min="-2" pref="89" max="-2" attributes="0"/>
-                                      <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
-                                      <Component id="squantity" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
-                                      <Component id="oquantity" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
-                                      <Component id="saquantity" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
-                                      <Component id="bquantity" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="jLabel56" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -129,37 +137,53 @@
                       <Component id="rprice" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel49" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="rbuy" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                      <Component id="rquantity" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Component id="rquantity" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="sprice" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="sbuy" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                      <Component id="squantity" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="oprice" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="obuy" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                      <Component id="oquantity" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="sprice" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="sbuy" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="squantity" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="oprice" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="obuy" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="135" max="-2" attributes="0"/>
+                          <Component id="oquantity" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="sapricee" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="sabuy" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                      <Component id="saquantity" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="saquantity" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="bprice" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel50" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="bbuy" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                      <Component id="bquantity" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Component id="bquantity" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace pref="58" max="32767" attributes="0"/>
+                  <EmptySpace pref="46" max="32767" attributes="0"/>
                   <Component id="jButton21" min="-2" pref="43" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
               </Group>
@@ -361,41 +385,6 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JSpinner" name="squantity">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="1"/>
-            </Property>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JSpinner" name="rquantity">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="1"/>
-            </Property>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JSpinner" name="oquantity">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="1"/>
-            </Property>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JSpinner" name="bquantity">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="1"/>
-            </Property>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JSpinner" name="saquantity">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="18" style="1"/>
-            </Property>
-          </Properties>
-        </Component>
         <Component class="javax.swing.JButton" name="jButton21">
           <Properties>
             <Property name="text" type="java.lang.String" value="Baxk"/>
@@ -403,6 +392,22 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton21ActionPerformed"/>
           </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="squantity">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squantityActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="oquantity">
+        </Component>
+        <Component class="javax.swing.JTextField" name="saquantity">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saquantityActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bquantity">
+        </Component>
+        <Component class="javax.swing.JTextField" name="rquantity">
         </Component>
       </SubComponents>
     </Container>
